@@ -23,12 +23,10 @@ required.
 Source Code
 -----------
 
-Source code for MaanyaOS is maintained by the MaanyaOS / NavDrishti
-project team.
+Source code for MaanyaOS is maintained by the MaanyaOS
 
-Development is currently carried out by the Zeus Coders team
-(Bhavya Raj Rathi and Kriday Ghosh), with builds and testing performed
-inside Oracle VirtualBox during active development.
+Development is currently carried out by Bhavya Raj Rathi and Kriday Ghosh, with builds and testing performed
+inside QEMU and Real Hardware during active development.
 
 
 Payloads
@@ -103,8 +101,7 @@ Credits
 -------
 
 The structure and licensing approach of this README were adapted from
-the [coreboot](https://www.coreboot.org) project
-(<https://review.coreboot.org/coreboot.git>), a Free Software project
+the [coreboot]), a Free Software project
 for replacing proprietary BIOS/UEFI firmware. MaanyaOS gratefully
 acknowledges coreboot and its community for the open-firmware
 groundwork and documentation conventions this project draws on.
