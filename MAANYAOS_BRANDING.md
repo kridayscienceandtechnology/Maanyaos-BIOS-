@@ -1,6 +1,6 @@
 # MaanyaOS Confidential — coreboot Rebrand (PreBeta)
 
-This is a fork of upstream [coreboot](https://coreboot.org) with OEM branding
+This is a custom edit of upstream [coreboot](https://coreboot.org) with OEM branding
 applied for **MaanyaOS**. It is intended to be built and flashed/booted from
 a custom Linux distro (e.g. via QEMU or on real hardware you control).
 
