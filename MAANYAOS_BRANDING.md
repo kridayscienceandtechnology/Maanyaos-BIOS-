@@ -1,4 +1,4 @@
-# MaanyaOS Confidential — coreboot Rebrand (PreBeta)
+# MaanyaOS Confidential — Rebrand (PreBeta)
 
 This is a custom edit of upstream [coreboot](https://coreboot.org) with OEM branding
 applied for **MaanyaOS**. It is intended to be built and flashed/booted from
@@ -54,15 +54,4 @@ You should see `MaanyaOS` as manufacturer and `MaanyaOS-Q35-PreBeta` as the
 product/board name, with the coreboot version string ending in
 `-MaanyaOS-PreBeta`.
 
-## Notes before you push this to GitHub
 
-- coreboot is licensed **GPL-2.0-only**. A public fork must keep `COPYING`
-  and existing copyright headers intact — you're free to rebrand OEM
-  identity strings (that's a normal, supported customization point) but not
-  strip upstream authorship/license notices.
-- "Confidential" in a public GitHub repo is contradictory — if this is meant
-  to stay private, use a private repo instead of a public one.
-- If you're targeting real hardware rather than QEMU, swap the mainboard
-  target (`src/mainboard/<vendor>/<board>`) and adjust
-  `configs/config.maanyaos_q35` accordingly — every physical board needs
-  board-specific devicetree/GPIO config beyond just the branding strings.
